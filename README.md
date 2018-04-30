@@ -27,6 +27,9 @@ Graphical SMPTE Timecode overlay for Moho Animations
   - To work around jumpiness, try adding some spaces and a trailing dot '    .' postfix, and then position the SMPTE Layer such that the dot is offscreen, or enclose with preferred prefix '\[' and postfix '\]' (for example)
   - Alternatively - you can use group/layer masking to hide the postfix character(s)
 
+### DEMO ###
+
+*   See: https://youtu.be/J66F29Wj0q0
             
 ### SPECIAL THANKS to: ###
 
