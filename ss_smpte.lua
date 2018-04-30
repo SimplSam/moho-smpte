@@ -173,7 +173,7 @@ function SS_SMPTE_Dialog:new(moho)
             d.nameoverlay = LM.GUI.CheckBox("Overlay SMPTE text on Layer name")
             l:AddChild(d.nameoverlay, LM.GUI.ALIGN_LEFT)
             d.fontPreview = MOHO.FontPreview(64, 64)
-            d.firstframe0 = LM.GUI.CheckBox("First frame is 000 (otherwise 001)")
+            d.firstframe0 = LM.GUI.CheckBox("First frame is 00:00:00:00 (otherwise 00:00:00:01)")
             l:AddChild(d.firstframe0, LM.GUI.ALIGN_LEFT)
             l:AddChild(d.fontPreview, LM.GUI.ALIGN_FILL)
         l:Pop() --V
